@@ -5,18 +5,6 @@ import re
 from ics import Calendar, Event
 from datetime import datetime, timedelta
 import pytz
-import spacy
-from transformers import pipeline
-
-# Load German language model for spaCy (using smaller model for faster processing)
-nlp = spacy.load("de_core_news_sm")
-
-# Change the model to a more appropriate one that's already fine-tuned for zero-shot classification
-classifier = pipeline(
-    "zero-shot-classification",
-    model="joeddav/xlm-roberta-large-xnli",  # This model supports multiple languages including German
-    device="cpu"
-)
 
 POOL_URLS = {
     "Schwimmsportkomplex Freiberger Platz": "https://dresdner-baeder.de/hallenbaeder/schwimmsportkomplex-freiberger-platz/",
@@ -26,14 +14,11 @@ tz = pytz.timezone("Europe/Berlin")
 
 weekday_map = {
     "Montag": 0, "Dienstag": 1, "Mittwoch": 2, "Donnerstag": 3, "Freitag": 4,
-    "Samstag": 5, "Sonntag": 6, "täglich": "all"  # Add täglich (daily)
+    "Samstag": 5, "Sonntag": 6, "täglich": "all"
 }
 
-def extract_events_with_nlp(url, pool_name):
-    """
-    Extract swim events using NLP techniques.
-    Uses spaCy for entity recognition and transformers for classification.
-    """
+def extract_events(url, pool_name):
+    """Extract swim events from the web page."""
     options = Options()
     options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)
@@ -44,86 +29,98 @@ def extract_events_with_nlp(url, pool_name):
     soup = BeautifulSoup(html, "html.parser")
     events = []
 
-    # Categories for classification with both German and English labels for better recognition
-    categories = [
-        "Frühschwimmen",
-        "Öffentliches Schwimmen",
-        "Lehrschwimmbecken",
-        "Öffnungszeiten"  # Added general opening hours category
-    ]
+    print(f"\n=== Checking daily opening hours for {pool_name} ===")
+    # First check for general daily opening hours
+    for block in soup.find_all(['div', 'section', 'article']):
+        text = block.get_text("\n", strip=True)
+        print("\nChecking block:")
+        print(f"Text: {text[:200]}...")  # Print first 200 chars of block
+        
+        if "Öffnungszeiten" in text:
+            print("Found Öffnungszeiten")
+        if "täglich" in text.lower():
+            print("Found täglich")
+            
+        if "Öffnungszeiten" in text and "täglich" in text.lower():
+            print("\nFound block with both Öffnungszeiten and täglich!")
+            # Look for time patterns
+            time_match = re.search(r"(?:täglich|Öffnungszeiten)[^\d]*((\d{1,2}:\d{2})\s*[–-]\s*(\d{1,2}:\d{2}))", text, re.IGNORECASE)
+            if time_match:
+                start_time, end_time = time_match.groups()[1:]
+                print(f"Found times: {start_time} - {end_time}")
+                # Create daily events for all weekdays
+                for weekday in list(weekday_map.keys())[:-1]:  # All weekdays except "täglich"
+                    events.append({
+                        "title": f"Öffentliches Schwimmen ({pool_name})",
+                        "weekday": weekday_map[weekday],
+                        "start": start_time,
+                        "end": end_time,
+                        "pool": pool_name,
+                        "daily": True
+                    })
+                print(f"Created daily events for all weekdays")
+                continue
+            else:
+                print("No time pattern match found in this block")
+                # Try a more lenient time pattern
+                time_match = re.finditer(r"(\d{1,2}:\d{2})\s*[–-]\s*(\d{1,2}:\d{2})", text)
+                for match in time_match:
+                    print(f"Found time with lenient pattern: {match.group()}")
 
-    # Process all text content
-    for element in soup.find_all(['p', 'div', 'section', 'article']):
-        text = element.get_text(strip=True)
-        if not text:
+    print(f"\n=== Processing specific schedules for {pool_name} ===")
+    # Process all other text blocks for specific schedules
+    for block in soup.find_all(['div', 'section', 'article']):
+        session_type = None
+        
+        # Try to find session type from headings
+        heading = block.find(['h2', 'h3', 'h4'])
+        if heading:
+            session_type = heading.get_text(strip=True)
+        
+        text = block.get_text("\n", strip=True)
+        
+        # Skip if this is the general opening hours block
+        if "Öffnungszeiten" in text and "täglich" in text.lower():
             continue
-
-        # Use spaCy for initial processing
-        doc = nlp(text)
-
+        
+        # Check for daily schedule
+        daily_schedule = "täglich" in text.lower()
+        
         # Look for time patterns
         time_matches = re.finditer(r"(\d{1,2}:\d{2})\s*[–-]\s*(\d{1,2}:\d{2})", text)
         for time_match in time_matches:
             start_time, end_time = time_match.groups()
             
-            # Find weekdays or "täglich" in the surrounding context
             weekdays_found = []
-            daily_schedule = False
-            
-            # Check for "täglich" first
-            if "täglich" in text.lower() or "Öffnungszeiten" in text:
-                daily_schedule = True
+            if daily_schedule:
                 weekdays_found = list(weekday_map.keys())[:-1]  # All weekdays except "täglich"
             else:
-                # Regular weekday search
-                for token in doc:
-                    if token.text in weekday_map and token.text != "täglich":
-                        weekdays_found.append(token.text)
-
-                # If no weekdays found directly, look in broader context
-                if not weekdays_found:
-                    for sent in doc.sents:
-                        for token in nlp(sent.text):
-                            if token.text in weekday_map and token.text != "täglich":
-                                weekdays_found.append(token.text)
-
-            # Use transformer to classify the type of swimming session
-            if weekdays_found:
-                # Get the sentence containing the time
-                relevant_sentence = next((sent.text for sent in doc.sents 
-                                       if start_time in sent.text), text)
-                
-                try:
-                    # Classify the type of swimming session
-                    result = classifier(
-                        relevant_sentence,
-                        candidate_labels=categories,
-                        hypothesis_template="Dies ist {}"
-                    )
-                    
-                    # If it's a general opening hours section, use "Öffentliches Schwimmen"
-                    session_type = result['labels'][0]
-                    if session_type == "Öffnungszeiten":
-                        session_type = "Öffentliches Schwimmen"
-                    
-                except Exception as e:
-                    print(f"Classification failed for text: {relevant_sentence}")
-                    print(f"Error: {str(e)}")
-                    # Default to "Öffentliches Schwimmen" if classification fails
+                # Look for weekday patterns
+                for day in weekday_map:
+                    if day in text and day != "täglich":
+                        weekdays_found.append(day)
+            
+            # Determine session type if not already set
+            if not session_type:
+                if "früh" in text.lower():
+                    session_type = "Frühschwimmen"
+                elif "öffentlich" in text.lower():
                     session_type = "Öffentliches Schwimmen"
-
-                # For daily schedule, create events for all weekdays
-                for weekday in weekdays_found:
-                    events.append({
-                        "title": f"{session_type} ({pool_name})",
-                        "weekday": weekday_map[weekday],
-                        "start": start_time,
-                        "end": end_time,
-                        "pool": pool_name,
-                        "confidence": result.get('scores', [1.0])[0],  # Handle potential missing scores
-                        "daily": daily_schedule
-                    })
-
+                elif "lehr" in text.lower():
+                    session_type = "Lehrschwimmbecken"
+                else:
+                    session_type = "Öffentliches Schwimmen"
+            
+            for weekday in weekdays_found:
+                events.append({
+                    "title": f"{session_type} ({pool_name})",
+                    "weekday": weekday_map[weekday],
+                    "start": start_time,
+                    "end": end_time,
+                    "pool": pool_name,
+                    "daily": daily_schedule
+                })
+    
     return events
 
 def next_weekday(base_date, target_weekday):
@@ -158,9 +155,7 @@ def create_calendar(events, pool_name):
         event.begin = start_dt
         event.end = end_dt
         schedule_type = "daily" if evt.get("daily", False) else "weekly"
-        event.description = (f"{evt['title']} on {date_for_event.strftime('%A')} at {pool_name}"
-                           f"\nSchedule: {schedule_type}"
-                           f"\nConfidence: {evt.get('confidence', 1.0):.2%}")
+        event.description = f"{evt['title']} on {date_for_event.strftime('%A')} at {pool_name}\nSchedule: {schedule_type}"
         event.rrule = {"freq": "weekly"}
         cal.events.add(event)
     return cal
@@ -178,7 +173,7 @@ def deduplicate_events(events):
 if __name__ == "__main__":
     for pool_name, url in POOL_URLS.items():
         print(f"Extracting events for {pool_name} ...")
-        events = extract_events_with_nlp(url, pool_name)
+        events = extract_events(url, pool_name)
         events = deduplicate_events(events)
         print(f"---- Final Events for {pool_name} ----")
         print(events)
