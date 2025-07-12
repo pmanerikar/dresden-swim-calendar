@@ -19,7 +19,15 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 ics pytz selenium chromedriver-autoinstaller
+        run: |
+          pip install requests beautifulsoup4 ics pytz selenium chromedriver-autoinstaller
+          pip install spacy transformers torch
+          python -m spacy download de_core_news_sm
+
+      - name: Install Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
 
       - name: Run calendar script
         run: python generate_ics.py
@@ -32,6 +40,6 @@ jobs:
 
       - name: Commit updated ICS
         run: |
-          git add schedule.ics
-          git commit -m "Auto-update schedule.ics" || echo "No changes"
+          git add *.ics
+          git commit -m "Auto-update schedules" || echo "No changes"
           git push

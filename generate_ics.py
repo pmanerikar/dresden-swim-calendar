@@ -5,147 +5,106 @@ import re
 from ics import Calendar, Event
 from datetime import datetime, timedelta
 import pytz
+import spacy
+from transformers import pipeline
 
-URL = "https://dresdner-baeder.de/hallenbaeder/schwimmsportkomplex-freiberger-platz/"
+# Load German language model for spaCy (using smaller model for faster processing)
+nlp = spacy.load("de_core_news_sm")
+
+# Initialize zero-shot classification pipeline
+classifier = pipeline("zero-shot-classification", model="deepset/gbert-base")
+
+POOL_URLS = {
+    "Schwimmsportkomplex Freiberger Platz": "https://dresdner-baeder.de/hallenbaeder/schwimmsportkomplex-freiberger-platz/",
+    "Georg-Arnhold-Bad Halle": "https://dresdner-baeder.de/hallenbaeder/georg-arnhold-bad-halle/"
+}
 tz = pytz.timezone("Europe/Berlin")
 
-# German weekday mapping
 weekday_map = {
     "Montag": 0, "Dienstag": 1, "Mittwoch": 2, "Donnerstag": 3, "Freitag": 4,
     "Samstag": 5, "Sonntag": 6
 }
 
-# Keywords to detect types of swim sessions
-SWIM_KEYWORDS = {
-    "früh": "Frühschwimmen",
-    "öffentlich": "Öffentliches Schwimmen",
-    "lehr": "Lehrschwimmbecken"
-}
-
-def extract_text_blocks():
-    """Get all text from accordion or structured blocks."""
-    response = requests.get(URL)
-    soup = BeautifulSoup(response.content, "html.parser")
-    
-    content_blocks = soup.find_all(['section', 'div', 'article'], recursive=True)
-    all_text = "\n".join([block.get_text(separator="\n", strip=True) for block in content_blocks])
-    
-    return all_text
-
-def extract_events_from_text(text):
-    """Extract swim events using regex and keyword matching."""
-    events = []
-    lines = text.splitlines()
-    current_category = None
-    for line in lines:
-        # Detect section header
-        for key in SWIM_KEYWORDS:
-            if key in line.lower():
-                current_category = SWIM_KEYWORDS[key]
-                break
-
-        # Match weekday and time like "Montag: 06:00–08:00"
-        match = re.search(r'(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag)[\s:]+(\d{1,2}:\d{2})\s*[–-]\s*(\d{1,2}:\d{2})', line)
-        if match and current_category:
-            weekday_str, start_time, end_time = match.groups()
-            weekday_num = weekday_map[weekday_str]
-            events.append({
-                "title": current_category,
-                "weekday": weekday_num,
-                "start": start_time,
-                "end": end_time
-            })
-    return events
-
-def extract_events_from_table():
-    """Extract swim events from the baeder__table on the website."""
+def extract_events_with_nlp(url, pool_name):
+    """
+    Extract swim events using NLP techniques.
+    Uses spaCy for entity recognition and transformers for classification.
+    """
     options = Options()
     options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)
-    driver.get(URL)
-    html = driver.page_source
-    driver.quit()
-
-    soup = BeautifulSoup(html, "html.parser")
-    table = soup.find("table", class_="baeder__table")
-    print("---- Table Found ----")
-    print("Yes" if table else "No")
-    events = []
-    if not table:
-        print("No schedule table found.")
-        return events
-
-    for row in table.find_all("tr"):
-        cols = row.find_all("td")
-        print("---- Row Columns ----")
-        print([col.get_text(strip=True) for col in cols])
-        if len(cols) < 3:
-            continue
-        weekday = cols[0].get_text(strip=True)
-        time_range = cols[1].get_text(strip=True)
-        session_type = cols[2].get_text(strip=True)
-        match = re.match(r"(\d{1,2}:\d{2})\s*[–-]\s*(\d{1,2}:\d{2})", time_range)
-        print(f"Weekday: {weekday}, Time Range: {time_range}, Session: {session_type}, Match: {bool(match)}")
-        if weekday in weekday_map and match:
-            start_time, end_time = match.groups()
-            events.append({
-                "title": session_type,
-                "weekday": weekday_map[weekday],
-                "start": start_time,
-                "end": end_time
-            })
-    print("---- Events Extracted ----")
-    print(events)
-    return events
-
-def extract_events_from_blocks():
-    options = Options()
-    options.add_argument("--headless")
-    driver = webdriver.Chrome(options=options)
-    driver.get(URL)
+    driver.get(url)
     html = driver.page_source
     driver.quit()
 
     soup = BeautifulSoup(html, "html.parser")
     events = []
-    for block in soup.find_all("div", class_="wpb_text_column"):
-        h3 = block.find("h3")
-        p = block.find("p")
-        if not h3 or not p:
+
+    # Categories for classification
+    categories = ["Frühschwimmen", "Öffentliches Schwimmen", "Lehrschwimmbecken"]
+
+    # Process all text content
+    for element in soup.find_all(['p', 'div', 'section', 'article']):
+        text = element.get_text(strip=True)
+        if not text:
             continue
-        session_type = h3.get_text(strip=True)
-        # Split by <br> and newlines
-        lines = []
-        for elem in p.contents:
-            if isinstance(elem, str):
-                lines.extend([l.strip() for l in elem.splitlines() if l.strip()])
-            elif elem.name == "br":
-                continue
-            else:
-                lines.append(elem.get_text(strip=True))
-        for line in lines:
-            # Example: "16:00 – 20:00 Uhr (Montag, Mittwoch)"
-            match = re.match(r"(\d{1,2}:\d{2})\s*[–-]\s*(\d{1,2}:\d{2}).*?\((.*?)\)", line)
-            if match:
-                start, end, days = match.groups()
-                for day in [d.replace('\xad', '').strip() for d in days.split(",")]:
-                    if day in weekday_map:
-                        events.append({
-                            "title": session_type,
-                            "weekday": weekday_map[day],
-                            "start": start,
-                            "end": end
-                        })
+
+        # Use spaCy for initial processing
+        doc = nlp(text)
+
+        # Look for time patterns
+        time_matches = re.finditer(r"(\d{1,2}:\d{2})\s*[–-]\s*(\d{1,2}:\d{2})", text)
+        for time_match in time_matches:
+            start_time, end_time = time_match.groups()
+            
+            # Find weekdays in the surrounding context
+            weekdays_found = []
+            for token in doc:
+                if token.text in weekday_map:
+                    weekdays_found.append(token.text)
+
+            # If no weekdays found directly, look in broader context
+            if not weekdays_found:
+                for sent in doc.sents:
+                    for token in nlp(sent.text):
+                        if token.text in weekday_map:
+                            weekdays_found.append(token.text)
+
+            # Use transformer to classify the type of swimming session
+            if weekdays_found:
+                # Get the sentence containing the time
+                relevant_sentence = next((sent.text for sent in doc.sents 
+                                       if start_time in sent.text), text)
+                
+                # Classify the type of swimming session
+                result = classifier(
+                    relevant_sentence,
+                    candidate_labels=categories,
+                    hypothesis_template="Dies ist ein {}."
+                )
+                
+                session_type = result['labels'][0]  # Get most likely category
+
+                # Create events for each weekday found
+                for weekday in weekdays_found:
+                    events.append({
+                        "title": f"{session_type} ({pool_name})",
+                        "weekday": weekday_map[weekday],
+                        "start": start_time,
+                        "end": end_time,
+                        "pool": pool_name,
+                        "confidence": result['scores'][0]  # Store classification confidence
+                    })
+
     return events
 
 def next_weekday(base_date, target_weekday):
-    """Return the next date from base_date that is the target weekday."""
     days_ahead = target_weekday - base_date.weekday()
     if days_ahead <= 0:
         days_ahead += 7
     return base_date + timedelta(days=days_ahead)
 
-def create_calendar(events):
+def create_calendar(events, pool_name):
     cal = Calendar()
     base_date = datetime.now(tz)
     for evt in events:
@@ -170,8 +129,9 @@ def create_calendar(events):
         event.name = evt["title"]
         event.begin = start_dt
         event.end = end_dt
-        event.description = f"{evt['title']} on {date_for_event.strftime('%A')}"
-        event.rrule = {"freq": "weekly"}  # <-- set recurring rule properly
+        event.description = (f"{evt['title']} on {date_for_event.strftime('%A')} at {pool_name}"
+                           f"\nConfidence: {evt.get('confidence', 1.0):.2%}")
+        event.rrule = {"freq": "weekly"}
         cal.events.add(event)
     return cal
 
@@ -179,18 +139,21 @@ def deduplicate_events(events):
     seen = set()
     unique_events = []
     for evt in events:
-        key = (evt["title"], evt["weekday"], evt["start"], evt["end"])
+        key = (evt["title"], evt["weekday"], evt["start"], evt["end"], evt.get("pool"))
         if key not in seen:
             seen.add(key)
             unique_events.append(evt)
     return unique_events
 
 if __name__ == "__main__":
-    events = extract_events_from_blocks()
-    events = deduplicate_events(events)  # Deduplicate here
-    print("---- Final Events ----")
-    print(events)
-    calendar = create_calendar(events)
-    with open("schedule.ics", "w") as f:
-        f.writelines(calendar.serialize_iter())
-    print("✅ ICS calendar created and updated.")
+    for pool_name, url in POOL_URLS.items():
+        print(f"Extracting events for {pool_name} ...")
+        events = extract_events_with_nlp(url, pool_name)
+        events = deduplicate_events(events)
+        print(f"---- Final Events for {pool_name} ----")
+        print(events)
+        calendar = create_calendar(events, pool_name)
+        filename = f"schedule_{pool_name.lower().replace(' ', '_').replace('-', '').replace('(', '').replace(')', '')}.ics"
+        with open(filename, "w") as f:
+            f.writelines(calendar.serialize_iter())
+        print(f"✅ ICS calendar created for {pool_name}: {filename}.")

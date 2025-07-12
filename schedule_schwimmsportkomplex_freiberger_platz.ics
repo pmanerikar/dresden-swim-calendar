@@ -1,0 +1,389 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T180000Z
+DTSTART:20250717T120000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:d2f45275-de57-4278-9ca9-9efc4ed8d9a6@d2f4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250714T080000Z
+DTSTART:20250714T040000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:ad030ea0-8cce-42f4-8f9b-979500227fe7@ad03.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T180000Z
+DTSTART:20250717T120000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:343f7368-ee5d-4036-8821-1566937e56d3@343f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250714T080000Z
+DTSTART:20250714T040000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:28ff2636-75fa-474f-8445-edf4bd12bd7b@28ff.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T080000Z
+DTSTART:20250717T060000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:2aac6f6e-11cb-4096-b770-fcd96dff8d43@2aac.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T050000Z
+DTSTART:20250715T040000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:3c4c3ee7-aa92-4a11-96d3-052ad526a556@3c4c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T050000Z
+DTSTART:20250718T040000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:131d11e4-d62e-4673-b5db-875c1d23b60a@131d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T180000Z
+DTSTART:20250718T120000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:2048d576-e852-4030-843f-58fcc43893ad@2048.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T080000Z
+DTSTART:20250717T040000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:50bda969-4dde-4762-ac9d-decd1125eb7f@50bd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T080000Z
+DTSTART:20250718T040000Z
+SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:6e399215-81bd-4498-b613-d60547840826@6e39.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T180000Z
+DTSTART:20250717T123000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:686da0a8-f307-4138-a613-4ab996735ba4@686d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T080000Z
+DTSTART:20250718T070000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:d055c75e-71a0-464a-a52d-3e5289dd5a68@d055.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250714T180000Z
+DTSTART:20250714T140000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:862d838a-417a-4729-af53-b12cf243437e@862d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250714T180000Z
+DTSTART:20250714T120000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:d63f3927-905d-46c9-907f-211859497075@d63f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T080000Z
+DTSTART:20250715T070000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:3d76e155-553a-4691-864a-2a7857b44fba@3d76.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250714T180000Z
+DTSTART:20250714T120000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:97e8d150-c8f6-44da-941b-6b17db0842d3@97e8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T180000Z
+DTSTART:20250715T120000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:b25a1000-1fa8-43be-a7f8-87371b6e26f7@b25a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250716T180000Z
+DTSTART:20250716T120000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:649df5e6-78e7-478a-bd9e-9036f10a7d5d@649d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T080000Z
+DTSTART:20250718T070000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:fa6daec1-dbb4-4bae-a81f-580e4072cb86@fa6d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T080000Z
+DTSTART:20250715T040000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:9555d27f-e400-4311-9ab0-e72d5977905a@9555.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T080000Z
+DTSTART:20250717T060000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:c045099e-5e39-4a3e-a2ae-e6a179425aa7@c045.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T080000Z
+DTSTART:20250715T040000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:1d2322d5-eb49-4daf-a863-8f3711072139@1d23.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T080000Z
+DTSTART:20250715T070000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:76b72f98-7228-4867-ae03-fe21fb0b5cca@76b7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T080000Z
+DTSTART:20250715T040000Z
+SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:0a8b036b-5f27-48a2-ae89-b04657a56d5f@0a8b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250716T180000Z
+DTSTART:20250716T120000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:7c21751e-aa5b-498b-9765-ed639d858635@7c21.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250714T080000Z
+DTSTART:20250714T040000Z
+SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:7e8aeb67-7e58-49ba-996d-8bd5b2739d5f@7e8a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250714T080000Z
+DTSTART:20250714T040000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:a8ca141a-5036-427d-92cc-0d3a0e444c53@a8ca.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250714T180000Z
+DTSTART:20250714T120000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:402cd637-a920-43be-ba68-c90cb13e6be7@402c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250716T180000Z
+DTSTART:20250716T120000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:d390f20e-7567-4f11-ab38-9c68cedba863@d390.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T080000Z
+DTSTART:20250718T040000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:0f20b413-6e41-459d-b13f-c1a07ebdfa14@0f20.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250714T180000Z
+DTSTART:20250714T140000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:943727de-862f-42e4-94c5-198920f3d560@9437.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T180000Z
+DTSTART:20250717T123000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:c2a30bd7-7d0f-41de-8861-c1e015c1b2a4@c2a3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T080000Z
+DTSTART:20250718T040000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:d8be8c42-2374-4358-9a3e-866e0c66a0d3@d8be.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250716T180000Z
+DTSTART:20250716T140000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:3d528742-f60b-4e3b-b699-a91ca099efa5@3d52.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T180000Z
+DTSTART:20250718T120000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:897c4bbf-4658-47ef-b1c5-390c72b2a7a0@897c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T050000Z
+DTSTART:20250718T040000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:31fda4e8-25a2-4d73-9a74-ac35c62070c1@31fd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T180000Z
+DTSTART:20250717T123000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:d4562f99-524a-44de-8906-a22ea11a1a01@d456.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T080000Z
+DTSTART:20250715T070000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:2e863204-ea06-4ad6-8a7c-ba717727d28a@2e86.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250716T180000Z
+DTSTART:20250716T140000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:1b8f5f84-ad5d-4072-a099-fc6809598cf5@1b8f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T080000Z
+DTSTART:20250717T040000Z
+SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:259ef120-27a3-40ba-880a-e94d41c02e60@259e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T080000Z
+DTSTART:20250718T070000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:969bb8f4-dd9e-46b0-a2c0-01e8b7d46c7d@969b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250714T180000Z
+DTSTART:20250714T140000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:8279ccd8-ab65-44d3-84c2-ca0dca5484f7@8279.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T050000Z
+DTSTART:20250718T040000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:1b16b8be-0cfe-4cbc-8ab4-6d520d9deb0b@1b16.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250718T180000Z
+DTSTART:20250718T120000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:3fc01317-51e3-4fca-89d0-b3ce4c767b32@3fc0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T180000Z
+DTSTART:20250715T120000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:b57d0aa0-40ba-4129-bb03-af83aa312118@b57d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T180000Z
+DTSTART:20250715T170000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:9cbdf181-2c6f-4714-991a-fa929f4268e9@9cbd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T080000Z
+DTSTART:20250717T040000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:72da8bca-3e74-43a0-93ba-e1558192bb87@72da.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T180000Z
+DTSTART:20250715T170000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:2fb92f87-ccf9-4715-a38d-840e96deec51@2fb9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T050000Z
+DTSTART:20250715T040000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:df6c5bff-3b32-4173-acf4-c3d27c6efea4@df6c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T180000Z
+DTSTART:20250715T120000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:cf2a4fd6-d83b-4b5f-af54-362d62fb5cdd@cf2a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T080000Z
+DTSTART:20250717T060000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:5624b603-79fb-45d7-9ddd-3c0375b7a3b4@5624.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T050000Z
+DTSTART:20250715T040000Z
+SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
+UID:17ebb042-4425-4f45-b7f2-0017f0a44f45@17eb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250717T180000Z
+DTSTART:20250717T120000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:e8348dbf-ddf6-485a-ba89-1db9434597da@e834.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250715T180000Z
+DTSTART:20250715T170000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:350a902e-fe28-4cde-b783-2bb601b5ae08@350a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
+DTEND:20250716T180000Z
+DTSTART:20250716T140000Z
+SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
+UID:f2a929eb-a4ea-4b36-9668-0d9388c8abcc@f2a9.org
+END:VEVENT
+END:VCALENDAR
