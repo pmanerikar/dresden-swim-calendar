@@ -11,8 +11,12 @@ from transformers import pipeline
 # Load German language model for spaCy (using smaller model for faster processing)
 nlp = spacy.load("de_core_news_sm")
 
-# Initialize zero-shot classification pipeline
-classifier = pipeline("zero-shot-classification", model="deepset/gbert-base")
+# Change the model to a more appropriate one that's already fine-tuned for zero-shot classification
+classifier = pipeline(
+    "zero-shot-classification",
+    model="joeddav/xlm-roberta-large-xnli",  # This model supports multiple languages including German
+    device="cpu"
+)
 
 POOL_URLS = {
     "Schwimmsportkomplex Freiberger Platz": "https://dresdner-baeder.de/hallenbaeder/schwimmsportkomplex-freiberger-platz/",
@@ -40,8 +44,13 @@ def extract_events_with_nlp(url, pool_name):
     soup = BeautifulSoup(html, "html.parser")
     events = []
 
-    # Categories for classification
-    categories = ["Frühschwimmen", "Öffentliches Schwimmen", "Lehrschwimmbecken"]
+    # Categories for classification with both German and English labels for better recognition
+    categories = [
+        "Frühschwimmen",
+        "Öffentliches Schwimmen",
+        "Lehrschwimmbecken",
+        "Öffnungszeiten"  # Added general opening hours category
+    ]
 
     # Process all text content
     for element in soup.find_all(['p', 'div', 'section', 'article']):
@@ -62,7 +71,7 @@ def extract_events_with_nlp(url, pool_name):
             daily_schedule = False
             
             # Check for "täglich" first
-            if "täglich" in text.lower():
+            if "täglich" in text.lower() or "Öffnungszeiten" in text:
                 daily_schedule = True
                 weekdays_found = list(weekday_map.keys())[:-1]  # All weekdays except "täglich"
             else:
@@ -84,14 +93,24 @@ def extract_events_with_nlp(url, pool_name):
                 relevant_sentence = next((sent.text for sent in doc.sents 
                                        if start_time in sent.text), text)
                 
-                # Classify the type of swimming session
-                result = classifier(
-                    relevant_sentence,
-                    candidate_labels=categories,
-                    hypothesis_template="Dies ist ein {}."
-                )
-                
-                session_type = result['labels'][0]  # Get most likely category
+                try:
+                    # Classify the type of swimming session
+                    result = classifier(
+                        relevant_sentence,
+                        candidate_labels=categories,
+                        hypothesis_template="Dies ist {}"
+                    )
+                    
+                    # If it's a general opening hours section, use "Öffentliches Schwimmen"
+                    session_type = result['labels'][0]
+                    if session_type == "Öffnungszeiten":
+                        session_type = "Öffentliches Schwimmen"
+                    
+                except Exception as e:
+                    print(f"Classification failed for text: {relevant_sentence}")
+                    print(f"Error: {str(e)}")
+                    # Default to "Öffentliches Schwimmen" if classification fails
+                    session_type = "Öffentliches Schwimmen"
 
                 # For daily schedule, create events for all weekdays
                 for weekday in weekdays_found:
@@ -101,7 +120,7 @@ def extract_events_with_nlp(url, pool_name):
                         "start": start_time,
                         "end": end_time,
                         "pool": pool_name,
-                        "confidence": result['scores'][0],  # Store classification confidence
+                        "confidence": result.get('scores', [1.0])[0],  # Handle potential missing scores
                         "daily": daily_schedule
                     })
 
