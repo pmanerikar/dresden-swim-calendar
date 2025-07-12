@@ -24,10 +24,14 @@ jobs:
       - name: Run calendar script
         run: python generate_ics.py
 
-      - name: Commit updated ICS
+      - name: Set up GitHub credentials
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
+      - name: Commit updated ICS
+        run: |
           git add schedule.ics
           git commit -m "Auto-update schedule.ics" || echo "No changes"
           git push
