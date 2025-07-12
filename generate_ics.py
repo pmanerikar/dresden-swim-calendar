@@ -22,7 +22,7 @@ tz = pytz.timezone("Europe/Berlin")
 
 weekday_map = {
     "Montag": 0, "Dienstag": 1, "Mittwoch": 2, "Donnerstag": 3, "Freitag": 4,
-    "Samstag": 5, "Sonntag": 6
+    "Samstag": 5, "Sonntag": 6, "täglich": "all"  # Add täglich (daily)
 }
 
 def extract_events_with_nlp(url, pool_name):
@@ -57,18 +57,26 @@ def extract_events_with_nlp(url, pool_name):
         for time_match in time_matches:
             start_time, end_time = time_match.groups()
             
-            # Find weekdays in the surrounding context
+            # Find weekdays or "täglich" in the surrounding context
             weekdays_found = []
-            for token in doc:
-                if token.text in weekday_map:
-                    weekdays_found.append(token.text)
+            daily_schedule = False
+            
+            # Check for "täglich" first
+            if "täglich" in text.lower():
+                daily_schedule = True
+                weekdays_found = list(weekday_map.keys())[:-1]  # All weekdays except "täglich"
+            else:
+                # Regular weekday search
+                for token in doc:
+                    if token.text in weekday_map and token.text != "täglich":
+                        weekdays_found.append(token.text)
 
-            # If no weekdays found directly, look in broader context
-            if not weekdays_found:
-                for sent in doc.sents:
-                    for token in nlp(sent.text):
-                        if token.text in weekday_map:
-                            weekdays_found.append(token.text)
+                # If no weekdays found directly, look in broader context
+                if not weekdays_found:
+                    for sent in doc.sents:
+                        for token in nlp(sent.text):
+                            if token.text in weekday_map and token.text != "täglich":
+                                weekdays_found.append(token.text)
 
             # Use transformer to classify the type of swimming session
             if weekdays_found:
@@ -85,7 +93,7 @@ def extract_events_with_nlp(url, pool_name):
                 
                 session_type = result['labels'][0]  # Get most likely category
 
-                # Create events for each weekday found
+                # For daily schedule, create events for all weekdays
                 for weekday in weekdays_found:
                     events.append({
                         "title": f"{session_type} ({pool_name})",
@@ -93,7 +101,8 @@ def extract_events_with_nlp(url, pool_name):
                         "start": start_time,
                         "end": end_time,
                         "pool": pool_name,
-                        "confidence": result['scores'][0]  # Store classification confidence
+                        "confidence": result['scores'][0],  # Store classification confidence
+                        "daily": daily_schedule
                     })
 
     return events
@@ -129,7 +138,9 @@ def create_calendar(events, pool_name):
         event.name = evt["title"]
         event.begin = start_dt
         event.end = end_dt
+        schedule_type = "daily" if evt.get("daily", False) else "weekly"
         event.description = (f"{evt['title']} on {date_for_event.strftime('%A')} at {pool_name}"
+                           f"\nSchedule: {schedule_type}"
                            f"\nConfidence: {evt.get('confidence', 1.0):.2%}")
         event.rrule = {"freq": "weekly"}
         cal.events.add(event)
