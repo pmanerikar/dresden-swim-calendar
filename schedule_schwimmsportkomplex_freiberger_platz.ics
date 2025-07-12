@@ -2,675 +2,675 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T080000Z
-DTSTART:20250714T060000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:3c983df2-c842-4761-913a-8cae15fef649@3c98.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T140000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:1e471de8-a58a-4eca-840e-cf2331ff48f9@1e47.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T050000Z
-DTSTART:20250715T040000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:82d2901d-e9d0-4e3a-b0dc-52102b0d490d@82d2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T123000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:b92aac95-7555-4a8a-9eee-109f4635bc8b@b92a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T050000Z
-DTSTART:20250718T040000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:62ae827b-d8ee-4ee8-a5af-432106ac0b1e@62ae.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T120000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:3eb47c5e-ee7c-45fd-939b-7f3f9437a488@3eb4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T050000Z
-DTSTART:20250714T040000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:10bb8877-398f-4ac2-9558-8a6427c706bc@10bb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T080000Z
-DTSTART:20250714T040000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:e0f33059-cd69-4466-8589-af4dde761105@e0f3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T050000Z
-DTSTART:20250714T040000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:8b08a386-9c8b-4474-ad0f-470a58f1e406@8b08.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T080000Z
-DTSTART:20250714T070000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:749fcdb4-a14e-4cd8-8fe7-adacac1adbab@749f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T170000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:3b339ce3-878f-405c-afb9-a68c93afd296@3b33.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T123000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:f74bb4b8-ca9c-4681-948b-8208bcbc1315@f74b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T080000Z
-DTSTART:20250714T060000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:963fad32-0dc4-4d36-ae6c-41e20c1fce5e@963f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T060000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:3f6f5e3e-20a4-45df-96c5-95868e9190a3@3f6f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T040000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:51a7be17-e92f-4309-bcfe-3e13f3a27298@51a7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T040000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:b394cfc5-fe81-4500-938e-08ffed403408@b394.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T123000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:6272429d-73fc-428d-baeb-191f55f89774@6272.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T070000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:57206777-970f-4577-874f-f5da8d0f0a69@5720.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T050000Z
-DTSTART:20250714T040000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:5a7ee8bb-d23b-4443-b073-768d6f3ecc6c@5a7e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T060000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:1d8d7d81-61b4-4ee5-8eb1-31b5f7782ee5@1d8d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T040000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:0593c9ee-f9aa-4b72-ac1b-1c22f7ce000b@0593.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T123000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:50359d6d-e2db-41be-8c26-ec59bf0c8dbe@5035.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T060000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:20a24297-2780-4074-8aae-30e96157272d@20a2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T140000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:40ec4c85-c42e-45bc-be8c-a87b292a8c3b@40ec.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T140000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:a4267ce1-2a7c-4c0a-b042-7be40f96fe80@a426.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T060000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:f3c491e0-aae4-4e53-8bb2-f73e9d7f0f31@f3c4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T040000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:14ca3c6e-9043-4564-b463-bde6c9cd79d2@14ca.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T070000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:1ff74dfe-07a3-4612-8fc1-97b8c057a4a0@1ff7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T140000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:2ffcb4a6-4bd4-4afb-99b5-229f161831e7@2ffc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T123000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:79af86db-7ad1-47b3-89cf-644d69c0f57c@79af.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T050000Z
-DTSTART:20250718T040000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:91da4687-b66a-430d-95cf-3e217b64ddd1@91da.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T050000Z
-DTSTART:20250715T040000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:71b4c5ee-6df1-432b-bc4a-6c55eb422e62@71b4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T070000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:8b3d5741-fe13-4ca9-9baf-5d232875f50b@8b3d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T050000Z
-DTSTART:20250718T040000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:50b09c18-b398-4806-9ff2-4ea93c291431@50b0.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T120000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:797f104d-b7cd-4f64-be89-7f205b6fdd89@797f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T140000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:50063ddf-2f7e-4bd5-b38c-96598bf58068@5006.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T170000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:21fb9da0-a73f-4158-aa08-61824f973259@21fb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T040000Z
-SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:88c963dd-2dc8-4b14-b3fd-fa6d1ccfe8b9@88c9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T140000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:ff3c03ff-d69d-41aa-a29e-9fff48648913@ff3c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T080000Z
-DTSTART:20250714T070000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:50c8051d-0543-4e4b-8240-bffb85c48a91@50c8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T170000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:34e1bb48-3b63-4d9a-be8d-745df0820340@34e1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T060000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:509499bd-78a1-4edc-9119-40bc83539bb3@5094.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T123000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:30ea725e-a28c-4468-a3a2-f896b898ab88@30ea.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T040000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:66160bee-4e0a-41d4-af7a-0b0f86d355c7@6616.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T170000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:d12488ba-29fe-43c2-a807-32203c3a0560@d124.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
 DTEND:20250714T080000Z
 DTSTART:20250714T040000Z
 SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:d0870eec-d109-4646-9438-397369c91aab@d087.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T170000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:a9930cfb-f3b9-4eda-9fc1-02528ac17954@a993.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T170000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:7deb13a2-651b-432e-87ce-3d2c1965cdc6@7deb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T170000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:79bb07f5-465e-496f-956d-07acc15e5f15@79bb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T120000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:7be5191c-6fec-4705-8a47-90fec556d385@7be5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T123000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:cddef130-50fe-4079-8089-fae88c85eafc@cdde.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T040000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:062526f4-db5e-4486-87ed-d0c8247f4f67@0625.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T123000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:e9b9911d-38b5-4b75-b111-ee121f047729@e9b9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T140000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:a6b6e846-76f0-4cb2-8c55-791b43d85133@a6b6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T040000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:32a4ab49-6500-4be0-9c98-a587db62fd6e@32a4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T070000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:c41354a4-202f-4460-82c6-2132c41cb7f8@c413.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T080000Z
-DTSTART:20250714T060000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:0a18a8da-adf6-430e-ac32-b387a213eefb@0a18.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T120000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:17e45b30-c1a6-43f0-84e8-cbc5ae902c40@17e4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T140000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:e6168b5a-38c2-49d3-bbf2-8898148381d6@e616.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T123000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:9044a2cc-121b-4938-b0d9-0877432aba31@9044.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T120000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:318b83cb-f3ee-427c-92f7-a37a0375506e@318b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T170000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:f9c13556-26ec-4cf3-ac6c-30cf4ada3503@f9c1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T080000Z
-DTSTART:20250714T040000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:f2a46616-da2c-4bec-bd6a-de24459c16fc@f2a4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T120000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:f9cc92a9-a26c-4bb6-9101-49c131c2444f@f9cc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T170000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:6f1cae12-fedc-4022-8ce9-9ce03031bf25@6f1c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T050000Z
-DTSTART:20250718T040000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:31675d83-04c9-4df1-b11f-617661febe2e@3167.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T140000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:7ea05364-b9a0-473b-a34c-d37779a1a6c9@7ea0.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T050000Z
-DTSTART:20250715T040000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:a33c1705-626d-41b3-9303-7808db7b230a@a33c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T070000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:636f7702-65c1-4c3e-8679-69fc598076bd@636f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T140000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:340b89c3-ccdc-4ae4-b9b2-22846b08117f@340b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T170000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:1e8b23c9-a6c2-403f-ba4b-f09ba5453087@1e8b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T070000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:909fea41-855f-407e-9c4e-43dc5d562954@909f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T123000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:4a555ac3-63fc-4fe1-8c7e-3edc60afdf27@4a55.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T060000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:3e47debc-aee7-4686-97ff-df2259b8d90a@3e47.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T123000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:4401f8f1-5a86-496e-96b5-31b9d135d242@4401.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T170000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:7cd7bff5-1278-458a-88ab-a93b390572f2@7cd7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T070000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:05bb3267-a06f-4797-af6b-c601b84ac253@05bb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T080000Z
-DTSTART:20250714T040000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:3c401823-8dd9-4404-b056-214a0bc3d669@3c40.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T180000Z
-DTSTART:20250715T170000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:a6d516f9-65e9-4038-a244-e4872e09c27b@a6d5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T080000Z
-DTSTART:20250714T070000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:9d3cbebb-5b99-4f4b-9c7c-1a628d029b56@9d3c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T050000Z
-DTSTART:20250715T040000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:4f084d94-db60-4fdb-aa42-d9ef37d022d6@4f08.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T060000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:dd3dfe6f-8eda-44ed-8e07-d1d69ef73425@dd3d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T140000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:1b8207f7-aa43-4524-912f-eafd243a7a1c@1b82.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T040000Z
-SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:c0f5331b-5da4-4ef7-8826-bfd09a14339a@c0f5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T040000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:8010d40e-812c-4698-b796-6700dfd1e83f@8010.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T050000Z
-DTSTART:20250714T040000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:f22f3f08-24f5-4ea0-be0a-dc08e680f937@f22f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T120000Z
-SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
-UID:a1c6f05b-3b77-417f-9cc9-1d46e30b4324@a1c6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250715T080000Z
-DTSTART:20250715T060000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:205a1c56-98c0-4dec-beee-1a8cf523f01d@205a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T180000Z
-DTSTART:20250718T120000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:f3ffb2d9-0833-440d-9f8f-0e57b9dea661@f3ff.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250718T080000Z
-DTSTART:20250718T070000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:4f692e19-ab8b-4e65-8f63-d29726a99e6e@4f69.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T080000Z
-DTSTART:20250714T060000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:cd193fcc-5112-4cca-b206-39fd7de4448c@cd19.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
-DTEND:20250714T180000Z
-DTSTART:20250714T123000Z
-SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:6bc76c65-4225-4a91-9b99-c642b4543a2c@6bc7.org
+UID:762ec579-6188-4977-a20d-b8d283ac4383@762e.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
 DTEND:20250715T180000Z
 DTSTART:20250715T120000Z
 SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:a3a361e4-a29c-4793-ba78-3b7de17d7604@a3a3.org
+UID:5bc03740-5369-4533-a3d3-14d2cf0bba98@5bc0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T170000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:0cd5b13a-1700-4be3-b1d0-3225140b4d8f@0cd5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T170000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:5e4fe04d-c3b7-4f7e-887b-4416cbcf68aa@5e4f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T040000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:0e62232f-b11b-433c-bca1-bc2e7844956a@0e62.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
 DTEND:20250718T180000Z
-DTSTART:20250718T140000Z
+DTSTART:20250718T120000Z
 SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
-UID:252f1f9b-3696-4aad-a283-2f63e8c46b26@252f.org
+UID:84dc48cb-de13-4798-ac3c-ce07fbf2223a@84dc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T050000Z
+DTSTART:20250718T040000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:fc0879f6-6bbe-497e-8da9-12aa4785c06c@fc08.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T080000Z
+DTSTART:20250714T070000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:d0621b0d-5203-4c4f-ab07-cf5587674823@d062.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T060000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:743f675e-d7c3-4f51-8bdc-3c43b3bfca85@743f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T120000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:5eb6ab02-472b-4a55-9b81-6f6e0850f057@5eb6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T050000Z
+DTSTART:20250718T040000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:6905d9fa-8597-4902-bfb7-69159e4b607a@6905.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T060000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:7fcd4461-9976-439f-8773-034371cea01d@7fcd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T040000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:717c07ff-2bee-4349-bdad-0e6caebd49fa@717c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T060000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:58961c2a-c1de-4e62-b7f8-bbf52c76fc52@5896.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T080000Z
+DTSTART:20250714T040000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:0dce299b-54a6-456e-8859-262931ac1ea5@0dce.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T060000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:0de3df08-cdce-467c-9472-003c4dac73b3@0de3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T123000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:efc35879-93e9-481f-add8-d4b977dbca47@efc3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T170000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:4f69a942-4ce0-4235-80a1-edeff3c4b566@4f69.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T080000Z
+DTSTART:20250714T070000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:97a7235b-4002-4b86-ac8c-f7baa7e14b52@97a7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T170000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:6bddcbf1-b527-4844-a730-021fb2c36136@6bdd.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
 DTEND:20250714T080000Z
 DTSTART:20250714T040000Z
 SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:5ef16e2c-7c27-4ea0-8df0-82c6ae8c220d@5ef1.org
+UID:941d9c8f-15a3-483c-b95d-33787cef274c@941d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T170000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:0d046848-8436-406d-80fd-0c90928fb921@0d04.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T050000Z
+DTSTART:20250714T040000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:395cc68d-de07-4c9c-9cc8-212b3dfc9a91@395c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T080000Z
+DTSTART:20250714T040000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:b70e9cb8-2c76-4a0a-a380-31e8d7c31637@b70e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T080000Z
+DTSTART:20250714T060000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:cb30b0a8-273c-4428-9cbf-5c6dd9ed3f62@cb30.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T140000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:74fb2116-59b7-4a1f-abf4-08b1c902ca96@74fb.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
 DTEND:20250714T080000Z
 DTSTART:20250714T070000Z
 SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:8486c92d-8bc8-4eb3-88e3-aeab216c2363@8486.org
+UID:26988b81-3bf2-42f4-a9bf-67a512eb0c20@2698.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T050000Z
+DTSTART:20250715T040000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:5b70817e-5358-4f40-8f72-29ad1560146f@5b70.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T123000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:27039083-ab73-4db3-abe2-57ad1d6fb434@2703.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T060000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:67871c0b-06ba-4629-bc4b-585a3ee9c312@6787.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T050000Z
+DTSTART:20250715T040000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:b4c873ac-78b2-40bb-933c-fd75935c1cc4@b4c8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T070000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:daf092b1-727b-4d0b-8444-5a684b11d47b@daf0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T080000Z
+DTSTART:20250714T060000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:090b20dc-82e8-4e35-9164-da0914474abd@090b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T120000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:75bf3a52-db73-4185-841e-df546eb0216d@75bf.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T080000Z
+DTSTART:20250714T060000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:3f907dc5-c8ed-4e01-bfbf-3dba1ca9d0c8@3f90.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T140000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:67babd6e-8aba-4ef1-9680-bdb32de96879@67ba.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T050000Z
+DTSTART:20250714T040000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:d170fbb3-2cdd-4b9f-8970-ad989854d021@d170.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T123000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:7af12bac-5bed-476c-9398-8adc642ea9b8@7af1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T120000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:8512fa42-4e10-42f7-b58b-7612cb98b855@8512.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T070000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:329c70f1-b6f1-4af8-8168-ca6cbcafd33e@329c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T140000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:c95fb7bc-277f-4e6e-b6c0-a11616e0c1cc@c95f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T170000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:301bf255-1c39-4853-bbdb-10ba64ab7309@301b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T140000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:3c17ee51-696a-46bd-8253-ed2a33d5a41c@3c17.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T140000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:8506a1a9-14db-4227-b068-4b5a7263bfe5@8506.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T070000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:e6e410f8-9058-4c81-880d-283a896b4394@e6e4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T123000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:109c59d4-1517-47d8-b6e8-8e541ffa7fc1@109c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T050000Z
+DTSTART:20250715T040000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:b35bae18-1637-4d8e-88cc-a4c6758fbfa6@b35b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T040000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:e33c29da-8af2-4ab4-bdd9-5e91eb0db0b7@e33c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T123000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:3d9c1a42-0224-45d2-9dc5-d6d66d71779c@3d9c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T060000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:918980fa-8fb7-4bc6-804a-1963111b5f18@9189.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T170000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:936d6b37-d56b-4bfe-b60a-2f1e5e375afc@936d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T070000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:d290c656-cbf7-47bd-bcc3-081dd8eae47d@d290.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T140000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:eefe8905-74f3-47bb-aaab-fae480b40dcc@eefe.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T040000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:4f21341c-02aa-456a-a86a-c21bd39f13e5@4f21.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T040000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:c06d315f-374a-4706-8c0c-45d65445a648@c06d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T080000Z
+DTSTART:20250714T070000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:f34a3109-0beb-4f5b-b812-88f2a97cf33a@f34a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T080000Z
+DTSTART:20250714T060000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:2ae0bca6-5dc7-40b9-8609-560c0ea9ff44@2ae0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T050000Z
+DTSTART:20250715T040000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:10cdd7e5-a104-4d8d-9af0-20f8184747dd@10cd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T040000Z
+SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:76d7cffe-f4b4-45a5-b612-3a2321adafdd@76d7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T120000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:77015664-87d3-403b-843b-3c70087cb427@7701.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T170000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:7bed3ace-6cd3-4487-8f17-00df330bc79b@7bed.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T170000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:8cb7cd69-ba2b-49de-8470-5f4e2c9427a7@8cb7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T123000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:3bdafb43-d691-4fb7-815d-cd172a94c5b6@3bda.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T123000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:32991915-936a-4599-85a7-5e1f29c57b79@3299.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T040000Z
+SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:89209e77-738a-4648-931d-ab5945bab682@8920.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T140000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:a9130962-8de2-421d-871f-ce77d0855232@a913.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T140000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:39cb28a3-146d-4aae-a196-f583e3c8e8ab@39cb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T040000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:8da077fa-ea6d-470e-8d2a-c6d673f98303@8da0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T123000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:1c933381-0161-4461-ad19-7eb958dc6ad7@1c93.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T120000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:f04ab9f2-6566-48f7-8a70-43fb437e611a@f04a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T123000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:580e1330-d760-454e-b59c-521331712fdd@580e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T170000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:8457acc9-8a67-4e49-bbe2-6f67b82fa2f7@8457.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T123000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:39809524-9b03-408d-8b85-b6b1b5d0d75c@3980.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T040000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:1137fc85-aee8-489e-b7f8-8a8ba8513f97@1137.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T060000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:d57fe7b8-234d-4360-8006-01e412941067@d57f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T170000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:03266e11-7af0-443b-8632-7d1bc0932a42@0326.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T050000Z
+DTSTART:20250714T040000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:73696912-5bfc-4164-8770-4d79bd3d0e96@7369.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T050000Z
+DTSTART:20250718T040000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:7ec3d0bc-8805-4e9b-a4d5-8443b9c870fc@7ec3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T070000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:a39d6db9-7efe-4db3-b8ea-c23b164dc135@a39d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T080000Z
+DTSTART:20250714T040000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:76acb670-9c7d-4519-8410-f305c6b1b1b7@76ac.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T050000Z
+DTSTART:20250714T040000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:d998c1bb-bfbb-4eaf-a16a-2d5f53600635@d998.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T070000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:e789e679-4e4d-4c54-8328-75b960490545@e789.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T050000Z
+DTSTART:20250718T040000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:788dfbdd-92de-4899-9a92-676ccae16d2d@788d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T140000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:d64bf29d-5385-4c58-975f-8a375b086099@d64b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T040000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:44f6d739-a196-455f-a274-20d87ea02e57@44f6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T180000Z
+DTSTART:20250718T140000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:0cb341a6-f75c-48d0-9e09-9eea0239803e@0cb3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T123000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:aa7ad4de-39bd-468a-b316-4ae6e9f278e3@aa7a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T120000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:2ba2c67a-cf22-4dad-981c-0f85df1db976@2ba2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T060000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:0444d7e6-4513-44e5-87f1-90964817ae52@0444.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T123000Z
+SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
+UID:5f5680e7-2f25-44d7-bd97-24d5223babd9@5f56.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T120000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:22b5a7d7-11f9-4c08-8ddc-54be818e0804@22b5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T140000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:7abc2c5f-6f59-45ec-ae4e-b5a433ad6acf@7abc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250718T080000Z
+DTSTART:20250718T070000Z
+SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:7426dade-2c92-4a71-b11d-96b51a827c4e@7426.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250714T180000Z
+DTSTART:20250714T170000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:80cf56b6-caa4-4620-98f7-2da3c943bf41@80cf.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T180000Z
+DTSTART:20250715T140000Z
+SUMMARY:Schwimmsport­komplex (Schwimmsportkomplex Freiberger Platz)
+UID:631b3caf-3c11-4ae4-b493-9337a14b3a9c@631b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly
+DTEND:20250715T080000Z
+DTSTART:20250715T070000Z
+SUMMARY:Tauch ein in die Welt\nder Dresdner Bäder! (Schwimmsportkomplex Freiberger Platz)
+UID:0fb3cf56-f5ac-4641-b4c8-b58f8c159942@0fb3.org
 END:VEVENT
 END:VCALENDAR
