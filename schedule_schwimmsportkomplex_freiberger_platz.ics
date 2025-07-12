@@ -2,388 +2,297 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T180000Z
-DTSTART:20250717T120000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:d2f45275-de57-4278-9ca9-9efc4ed8d9a6@d2f4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250714T080000Z
-DTSTART:20250714T040000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:ad030ea0-8cce-42f4-8f9b-979500227fe7@ad03.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T180000Z
-DTSTART:20250717T120000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:343f7368-ee5d-4036-8821-1566937e56d3@343f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250714T080000Z
-DTSTART:20250714T040000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:28ff2636-75fa-474f-8445-edf4bd12bd7b@28ff.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T080000Z
-DTSTART:20250717T060000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:2aac6f6e-11cb-4096-b770-fcd96dff8d43@2aac.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250715T050000Z
-DTSTART:20250715T040000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:3c4c3ee7-aa92-4a11-96d3-052ad526a556@3c4c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
 DTEND:20250718T050000Z
 DTSTART:20250718T040000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:131d11e4-d62e-4673-b5db-875c1d23b60a@131d.org
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:9c9b20da-6af8-4f00-bd99-ceee17c39146@9c9b.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250718T180000Z
-DTSTART:20250718T120000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:2048d576-e852-4030-843f-58fcc43893ad@2048.org
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250715T080000Z
+DTSTART:20250715T060000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:d3b0ec92-0bc5-4b1a-8948-473e31b6f168@d3b0.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T080000Z
-DTSTART:20250717T040000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:50bda969-4dde-4762-ac9d-decd1125eb7f@50bd.org
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
+DTEND:20250715T180000Z
+DTSTART:20250715T123000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:fdb31495-e79d-463d-a4d6-45e9179ca992@fdb3.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250718T080000Z
-DTSTART:20250718T040000Z
-SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:6e399215-81bd-4498-b613-d60547840826@6e39.org
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250714T080000Z
+DTSTART:20250714T060000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:9b4e9713-4f0c-4be1-b54d-637bbc660278@9b4e.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T180000Z
-DTSTART:20250717T123000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:686da0a8-f307-4138-a613-4ab996735ba4@686d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250718T080000Z
-DTSTART:20250718T070000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:d055c75e-71a0-464a-a52d-3e5289dd5a68@d055.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250714T180000Z
-DTSTART:20250714T140000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:862d838a-417a-4729-af53-b12cf243437e@862d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250714T180000Z
-DTSTART:20250714T120000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:d63f3927-905d-46c9-907f-211859497075@d63f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
 DTEND:20250715T080000Z
 DTSTART:20250715T070000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:3d76e155-553a-4691-864a-2a7857b44fba@3d76.org
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:bc325701-4208-4f3c-b3c6-32f92145fa13@bc32.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250714T180000Z
-DTSTART:20250714T120000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:97e8d150-c8f6-44da-941b-6b17db0842d3@97e8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Öffentliches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 38.16%
 DTEND:20250715T180000Z
 DTSTART:20250715T120000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:b25a1000-1fa8-43be-a7f8-87371b6e26f7@b25a.org
+SUMMARY:Öffentliches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:26a08b04-9c63-48e0-a148-a7f82739d9f2@26a0.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250716T180000Z
-DTSTART:20250716T120000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:649df5e6-78e7-478a-bd9e-9036f10a7d5d@649d.org
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250715T180000Z
+DTSTART:20250715T140000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:3014955d-cd58-4c09-915e-096ed6f5aa51@3014.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250718T080000Z
-DTSTART:20250718T070000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:fa6daec1-dbb4-4bae-a81f-580e4072cb86@fa6d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250715T080000Z
-DTSTART:20250715T040000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:9555d27f-e400-4311-9ab0-e72d5977905a@9555.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T080000Z
-DTSTART:20250717T060000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:c045099e-5e39-4a3e-a2ae-e6a179425aa7@c045.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250715T080000Z
-DTSTART:20250715T040000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:1d2322d5-eb49-4daf-a863-8f3711072139@1d23.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250715T080000Z
-DTSTART:20250715T070000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:76b72f98-7228-4867-ae03-fe21fb0b5cca@76b7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250715T080000Z
-DTSTART:20250715T040000Z
-SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:0a8b036b-5f27-48a2-ae89-b04657a56d5f@0a8b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250716T180000Z
-DTSTART:20250716T120000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:7c21751e-aa5b-498b-9765-ed639d858635@7c21.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
 DTEND:20250714T080000Z
 DTSTART:20250714T040000Z
-SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:7e8aeb67-7e58-49ba-996d-8bd5b2739d5f@7e8a.org
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:d9e2a76c-7007-4d39-bded-7ae402766446@d9e2.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250718T180000Z
+DTSTART:20250718T140000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:ea0e2292-a124-4fe7-9872-d8c6464e35ef@ea0e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250718T080000Z
+DTSTART:20250718T060000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:ebf8f69e-cd16-4988-8aac-895c8f57ee6f@ebf8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Öffentliches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 38.16%
+DTEND:20250718T180000Z
+DTSTART:20250718T120000Z
+SUMMARY:Öffentliches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:21f03f22-1768-4b91-9e07-1902b8c83b2f@21f0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250715T050000Z
+DTSTART:20250715T040000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:dfc2f365-5e57-42db-a60a-0bbf56462ede@dfc2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 43.01%
+DTEND:20250715T080000Z
+DTSTART:20250715T040000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:87ea5d01-d537-4a07-9382-600db6ef52eb@87ea.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250714T180000Z
+DTSTART:20250714T123000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:98187c2a-5d1e-43fa-9fe6-a8e485a39c88@9818.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250714T050000Z
+DTSTART:20250714T040000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:29837b06-0f6c-4e3b-b49b-94c3e4731acf@2983.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
+DTEND:20250714T080000Z
+DTSTART:20250714T070000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:164d77d7-4469-4443-af97-d1dc214e2dac@164d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
+DTEND:20250715T080000Z
+DTSTART:20250715T060000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:0d9387df-3117-4123-8b34-22c6e82498d9@0d93.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 43.01%
 DTEND:20250714T080000Z
 DTSTART:20250714T040000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:a8ca141a-5036-427d-92cc-0d3a0e444c53@a8ca.org
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:dad3d8aa-431d-4e54-ae6a-318d5f8912b4@dad3.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250714T180000Z
-DTSTART:20250714T120000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:402cd637-a920-43be-ba68-c90cb13e6be7@402c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250716T180000Z
-DTSTART:20250716T120000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:d390f20e-7567-4f11-ab38-9c68cedba863@d390.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250718T080000Z
-DTSTART:20250718T040000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:0f20b413-6e41-459d-b13f-c1a07ebdfa14@0f20.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250714T180000Z
-DTSTART:20250714T140000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:943727de-862f-42e4-94c5-198920f3d560@9437.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T180000Z
-DTSTART:20250717T123000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:c2a30bd7-7d0f-41de-8861-c1e015c1b2a4@c2a3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250718T080000Z
-DTSTART:20250718T040000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:d8be8c42-2374-4358-9a3e-866e0c66a0d3@d8be.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250716T180000Z
-DTSTART:20250716T140000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:3d528742-f60b-4e3b-b699-a91ca099efa5@3d52.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
 DTEND:20250718T180000Z
-DTSTART:20250718T120000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:897c4bbf-4658-47ef-b1c5-390c72b2a7a0@897c.org
+DTSTART:20250718T170000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:5c722435-14b4-4c5d-b82e-efe7cea59178@5c72.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250718T050000Z
-DTSTART:20250718T040000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:31fda4e8-25a2-4d73-9a74-ac35c62070c1@31fd.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T180000Z
-DTSTART:20250717T123000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:d4562f99-524a-44de-8906-a22ea11a1a01@d456.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250715T080000Z
-DTSTART:20250715T070000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:2e863204-ea06-4ad6-8a7c-ba717727d28a@2e86.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250716T180000Z
-DTSTART:20250716T140000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:1b8f5f84-ad5d-4072-a099-fc6809598cf5@1b8f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T080000Z
-DTSTART:20250717T040000Z
-SUMMARY:Früh­schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:259ef120-27a3-40ba-880a-e94d41c02e60@259e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
 DTEND:20250718T080000Z
 DTSTART:20250718T070000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:969bb8f4-dd9e-46b0-a2c0-01e8b7d46c7d@969b.org
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:cf144ac1-b0b5-45e8-b7aa-6bb8755881ef@cf14.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
+DTEND:20250715T180000Z
+DTSTART:20250715T170000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:755b1c75-302d-497d-9865-06e561004054@755b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250715T080000Z
+DTSTART:20250715T040000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:fad02e51-b994-4e0c-8b0e-8489517d001f@fad0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
+DTEND:20250715T180000Z
+DTSTART:20250715T140000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:9ce0384a-1149-4537-bd37-4b03272c4d68@9ce0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 43.01%
+DTEND:20250718T080000Z
+DTSTART:20250718T040000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:519c2b2e-81c9-4fdd-a9c6-1d10deee7259@519c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
 DTEND:20250714T180000Z
 DTSTART:20250714T140000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:8279ccd8-ab65-44d3-84c2-ca0dca5484f7@8279.org
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:6b34eccd-e6b2-471e-babd-e5f4e8cc021d@6b34.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250718T050000Z
-DTSTART:20250718T040000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:1b16b8be-0cfe-4cbc-8ab4-6d520d9deb0b@1b16.org
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250714T180000Z
+DTSTART:20250714T170000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:e1cba989-633f-4aa8-a557-4a8e13a466e0@e1cb.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250715T180000Z
+DTSTART:20250715T170000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:65d57ea2-b9ca-4670-845d-f3b0e93c593f@65d5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
+DTEND:20250714T050000Z
+DTSTART:20250714T040000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:8c9adb8a-c1b5-4f8c-a050-631b1f548578@8c9a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250714T080000Z
+DTSTART:20250714T070000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:e33259bd-23d7-4a20-b8e9-2240ef6bdb3e@e332.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.26%
 DTEND:20250718T180000Z
 DTSTART:20250718T120000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:3fc01317-51e3-4fca-89d0-b3ce4c767b32@3fc0.org
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:b349c22d-5d2c-43bf-b671-8835449a1181@b349.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250718T080000Z
+DTSTART:20250718T040000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:f8194160-95b0-4c4d-bd39-2b4c20ea0314@f819.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
+DTEND:20250714T180000Z
+DTSTART:20250714T170000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:b2b99993-d868-4791-8fe7-4d34e35784b7@b2b9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Friday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250718T180000Z
+DTSTART:20250718T123000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:894a380d-f812-4410-85c8-10360471186e@894a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
+DTEND:20250714T180000Z
+DTSTART:20250714T123000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:f33da55f-9667-4785-b7a0-a9de94934210@f33d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.26%
+DTEND:20250714T180000Z
+DTSTART:20250714T120000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:0b2b8c51-cbf8-4e09-8ebc-f3f6f562140d@0b2b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.26%
 DTEND:20250715T180000Z
 DTSTART:20250715T120000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:b57d0aa0-40ba-4129-bb03-af83aa312118@b57d.org
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:9bc80bff-9591-4373-8746-84af4798a27c@9bc8.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
 DTEND:20250715T180000Z
-DTSTART:20250715T170000Z
-SUMMARY:Lehrschwimm­becken (Schwimmsportkomplex Freiberger Platz)
-UID:9cbdf181-2c6f-4714-991a-fa929f4268e9@9cbd.org
+DTSTART:20250715T123000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:0fa55e88-5002-4bfc-992a-967abcc8be97@0fa5.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T080000Z
-DTSTART:20250717T040000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:72da8bca-3e74-43a0-93ba-e1558192bb87@72da.org
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
+DTEND:20250714T180000Z
+DTSTART:20250714T140000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:bd7f5a80-e6c9-4191-981a-b04cd4102691@bd7f.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250715T180000Z
-DTSTART:20250715T170000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:2fb92f87-ccf9-4715-a38d-840e96deec51@2fb9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
 DTEND:20250715T050000Z
 DTSTART:20250715T040000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:df6c5bff-3b32-4173-acf4-c3d27c6efea4@df6c.org
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:0f1397e1-000d-473b-b3ce-9d68cfc81d9d@0f13.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250715T180000Z
-DTSTART:20250715T120000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:cf2a4fd6-d83b-4b5f-af54-362d62fb5cdd@cf2a.org
+DESCRIPTION:Frühschwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 35.28%
+DTEND:20250714T080000Z
+DTSTART:20250714T060000Z
+SUMMARY:Frühschwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:4f2632e3-682a-4c34-b2b9-3c737a59aa3b@4f26.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T080000Z
-DTSTART:20250717T060000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:5624b603-79fb-45d7-9ddd-3c0375b7a3b4@5624.org
+DESCRIPTION:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 40.38%
+DTEND:20250715T080000Z
+DTSTART:20250715T070000Z
+SUMMARY:Lehrschwimmbecken (Schwimmsportkomplex Freiberger Platz)
+UID:69c584fb-fbe9-4c4a-9f76-cd48580a0c50@69c5.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Anfahrt (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250715T050000Z
-DTSTART:20250715T040000Z
-SUMMARY:Anfahrt (Schwimmsportkomplex Freiberger Platz)
-UID:17ebb042-4425-4f45-b7f2-0017f0a44f45@17eb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Thursday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250717T180000Z
-DTSTART:20250717T120000Z
-SUMMARY:Öffent­li­ches Schwimmen (Schwimmsportkomplex Freiberger Platz)
-UID:e8348dbf-ddf6-485a-ba89-1db9434597da@e834.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Tuesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250715T180000Z
-DTSTART:20250715T170000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:350a902e-fe28-4cde-b783-2bb601b5ae08@350a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Adresse (Schwimmsportkomplex Freiberger Platz) on Wednesday at Schwimmsportkomplex Freiberger Platz
-DTEND:20250716T180000Z
-DTSTART:20250716T140000Z
-SUMMARY:Adresse (Schwimmsportkomplex Freiberger Platz)
-UID:f2a929eb-a4ea-4b36-9668-0d9388c8abcc@f2a9.org
+DESCRIPTION:Öffentliches Schwimmen (Schwimmsportkomplex Freiberger Platz) on Monday at Schwimmsportkomplex Freiberger Platz\nSchedule: weekly\nConfidence: 38.16%
+DTEND:20250714T180000Z
+DTSTART:20250714T120000Z
+SUMMARY:Öffentliches Schwimmen (Schwimmsportkomplex Freiberger Platz)
+UID:5f8b4256-8d85-4308-bbaa-0c79dec54417@5f8b.org
 END:VEVENT
 END:VCALENDAR
