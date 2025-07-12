@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 ics pytz
+        run: pip install requests beautifulsoup4 ics pytz selenium chromedriver-autoinstaller
 
       - name: Run calendar script
         run: python generate_ics.py
