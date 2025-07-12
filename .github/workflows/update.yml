@@ -2,8 +2,8 @@ name: Generate ICS Schedule
 
 on:
   schedule:
-    - cron: '0 * * * *'  # every hour UTC
-  workflow_dispatch:     # manual run
+    - cron: '0 * * * *'  # Run every hour UTC
+  workflow_dispatch:       # Manual trigger
 
 jobs:
   update-calendar:
@@ -19,11 +19,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 ics pytz openai
+        run: pip install requests beautifulsoup4 ics pytz
 
       - name: Run calendar script
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generate_ics.py
 
       - name: Commit updated ICS
@@ -31,6 +29,5 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add schedule.ics
-          git commit -m "Auto-update schedule.ics" || echo "No changes to commit"
+          git commit -m "Auto-update schedule.ics" || echo "No changes"
           git push
-
